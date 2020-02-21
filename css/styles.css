@@ -1,0 +1,15 @@
+.container{
+  background-image: url(/home/alex/Documents/project3/images/backgrounds/h_img.jpg);
+  background-size: cover;
+  width: auto;
+  height: 500px;
+  text-align: center;
+}
+.section2{
+  background-color: transparent;
+  text-align: center;
+  height: auto;
+  width: 20
+  font-style: normal;
+  font-size: meduim;
+}
