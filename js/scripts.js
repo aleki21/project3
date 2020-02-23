@@ -2,23 +2,23 @@
 
 $(document).ready(function() {
 $(".show1").click(function() {
-   $("#hide1").slidetoggle();
-   $(".img-hidden1").slidetoggle()
+   $("#hide1").toggle();
+   $(".img-hidden1").toggle()
 });
 
 $(".show2").click(function() {
 
-   $("#hide2").slidetoggle();
+   $("#hide2").toggle();
 
-   $(".img-hidden2").slidetoggle();
+   $(".img-hidden2").toggle();
 
 });
 
 $(".show3").click(function() {
 
-   $("#hide3").slidetoggle();
+   $("#hide3").toggle();
 
-   $(".img-hidden3").slidetoggle();
+   $(".img-hidden3").toggle();
 
 });
 
