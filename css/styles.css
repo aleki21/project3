@@ -60,7 +60,7 @@ img {
 .contact {
  padding-top: 3%;
  background: url(../images/backgrounds/c_image.jpg);
- height: 70vh;
+ height: 500px;
 }
 
 .h8 {
@@ -139,4 +139,6 @@ textarea {
 }
 #work1{
   position: relative;
+}
+@media () {
 }
