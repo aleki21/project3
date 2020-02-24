@@ -16,7 +16,7 @@ $(".show3").click(function() {
 
    $("#hide3").toggle();
 
-   $(".img-hidden3").toggle();
+   $(".img-hidden3").stoggle();
 
 });
 
@@ -93,9 +93,15 @@ $(".img8").hover(function() {
 
 });
 
-$("form").submit (function(event) {
+$("form#form").submit (function(event) {
      var name=$("#name").val();
-     alert("Thankyou" + name + "for getting back to us!");
+     var email=$("#email").val();
+     var message =$("#message").val();
+     alert("Thank you " + name + " for getting back to us!");
 });
 
+});
+
+$('#work1 images').hover(function(){
+  $('.work1').toggle()
 });

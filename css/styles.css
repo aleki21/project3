@@ -124,3 +124,19 @@ textarea {
 #hide3 {
     display: none;
 }
+
+.overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6, .overlay7, .overlay8 {
+  display: none;
+  background-color: white;
+  opacity: .8;
+  font-size: 15px;
+  color: black;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  bottom: 30%;
+  right: 20%;
+}
+#work1{
+  position: relative;
+}
